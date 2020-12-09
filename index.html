@@ -1,0 +1,1072 @@
+<style>
+body {
+	font: 13px verdana;
+	color: #444;
+	background-image: url("http://i.imgur.com/29G9dk5.png");
+}
+center .sf, td {
+	display: none;
+}
+.main td {
+	display: table-cell;
+}
+.center {
+	width: 100%;
+	text-align: center;
+}
+.banner {
+	width: 1012px;
+	height: 600px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 20px auto;
+}
+.banner img.big {
+	width: 1000px;
+	margin: 6px;
+	background: #fff;
+}
+.banner img.fade {
+	width: 1000px;
+	margin-top: -400px;
+	height: 400px;
+}
+.banner h1 {
+	top: 258px;
+	left: 686px;
+	font: small-caps 56px georgia;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.banner h2 {
+	top: 266px;
+	left: 650px;
+	font: italic 110px georgia;
+	letter-spacing: -10px;
+	color: #2D1139;
+	margin: 0;
+	padding: 0;
+}
+.main {
+	width: 970px;
+	height: 600px;
+	background: url("http://i.imgur.com/rwIj7cm.png");
+	margin: -250px auto 0 auto;
+	overflow: hidden;
+}
+.main .white {
+	top: 229px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+}
+.main .content {
+	top: 12px;
+	bottom: 12px;
+	left: 12px;
+	right: 12px;
+	overflow: hidden;
+}
+.content .section {
+	width: 946px;
+	height: 576px;
+	overflow: auto;
+	margin: 0 0 1000px 0;
+	text-align: justify;
+	line-height: 16px;
+}
+.section h1 {
+	font: small-caps 35px georgia;
+	color: #2D1139;
+	margin: 0 0 10px 40px;
+}
+.section h2 {
+	font: italic 35px georgia;
+	color: #E40E54;
+	margin: 0 0 10px 40px;
+}
+.section b {
+	font: bold 13px georgia;
+	color: #E40E54;
+}
+.section i {
+	font: bold 13px georgia;
+	color: #c6018c;
+}
+.section a {
+	text-decoration: none;
+	color: #E40E54;
+	font: small-caps 13px georgia;
+}
+.section a:hover {
+	color: #2D1139;
+}
+.section ul {
+	list-style-type: none;
+	text-align: left;
+}
+.section li {
+	background: url("http://i.imgur.com/b00Bhvv.png") 0 -4px no-repeat;
+	padding: 4px 0 4px 23px;
+}
+.box {
+	width: 500px;
+	height: 200px;
+	float: right;
+	margin-left: 12px;
+	background: url("http://i.imgur.com/rwIj7cm.png");
+	border: 1px solid #C4BAB6;
+	overflow: auto;
+	text-align: left;
+}
+.date {
+	margin: 0 8px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font: bold italic 47px georgia;
+	letter-spacing: -1px;
+	color: #E40E54;
+	width: 67px;
+}
+.date b {
+	display: block;
+	font: bold 28px courier;
+	text-transform: lowercase;
+	color: #2D1139;
+	margin-top: -20px;
+}
+.update {
+	display: inline-block;
+	vertical-align: middle;
+	width: 377px;
+	margin: 8px;
+}
+textarea {
+	border: 1px solid #C4BAB6;
+	overflow: hidden;
+	color: #2D1139;
+	letter-spacing: -2px;
+}
+textarea:hover {
+	font: italic 23px georgia;
+	color: #E40E54;
+}
+.layout {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+.layout img {
+	width: 440px;
+	margin: 8px;
+}
+.layout textarea {
+	width: 440px;
+	height: 110px;
+	margin: 0 8px;
+}
+.button {
+	display: inline-block;
+	vertical-align: top;
+	margin: 4px;
+}
+.button textarea {
+	width: 88px;
+	height: 18px;
+	margin-top: 3px;
+}
+#request textarea {
+	width: 160px;
+	height: 50px;
+}
+.portfolio {
+	text-align: center;
+}
+.portfolio img {
+	height: 120px;
+	padding: 3px;
+	margin: 3px;
+	display: inline-block;
+	border: 1px solid #C4BAB6;
+}
+.col {
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+	margin: 8px;
+}
+#sitely .col, #request .col {
+	text-align: center;
+}
+#sitely img {
+	margin: 3px;
+}
+.bottom {
+	width: 1012px;
+	border: 1px solid #ddd;
+	background: #fff;
+	margin: 0 auto;
+}
+.bg {
+	width: 1000px;
+	height: 200px;
+	background: url("http://i.imgur.com/MgXxX1r.png");
+	margin: 6px;
+	display: inline-block;
+}
+#s1 {
+	margin: -200px auto 10px auto;
+}
+#s1 .bg {
+	height: 35px;
+}
+#s2 {
+	margin: 0 auto 10px auto;
+}
+#s2 .bg {
+	height: 50px;
+}
+.nav {
+	width: 970px;
+	text-align: center;
+	margin: 67px auto 0 auto;
+	font: 0px verdana;
+}
+.nav a {
+	display: inline-block;
+	width: 85px;
+	margin-right: 8px;
+	font: small-caps 13px georgia;
+	line-height: 38px;
+	background: url("http://i.imgur.com/rwIj7cm.png");
+	color: #2D1139;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #fff;
+	line-height: 38px;
+	background: url("http://i.imgur.com/6KXaQyD.png");
+}
+span.noe {
+	font: 12pt Trebuchet MS;
+	color: #999;
+	border: 0px red solid;
+	width: 300px;
+	text-align: center;
+	top: 170px;
+	right: 20px;
+}
+div.petbox {
+	width: 860px;
+	border: 1px #999 solid;
+	margin: 10px auto;
+	overflow: hidden;
+}
+div.petbox ul img {
+	border: 1px #ccc solid;
+	padding: 3px;
+}
+div.petbox ul {
+	width: 135px;
+	float: left;
+	border: 0px red solid;
+	height: 400px;
+	margin: 5px 0px;
+	padding: 0;
+	list-style: none;
+	font: 12pt Trebuchet MS;
+	text-align: center;
+}
+div.petbox ul li {
+	border: 0px orange solid;
+	display: inline-block;
+}
+div.petbox ul li span img {
+	display: block;
+	margin: 5px 0px;
+}
+div.petbox ul span {
+	display: none;
+	height: 400px;
+	width: 320px;
+	border: 0px blue solid;
+	left: 140px;
+	top: 0;
+}
+div.petbox ul li:hover span {
+	display: block;
+}
+div.petbox li {
+	background: none;
+	padding: 0px;
+}
+.card {
+	float: left;
+	text-align: center;
+	padding: 5px;
+}
+.overflow {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+.overflow .pet {
+	height: 300px;
+}
+.overflow:hover {
+	border-color: #222;
+}
+.pp {
+	bottom: 1em;
+	right: 1em;
+	z-index: 99;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	line-height: 1.25;
+	text-align: left;
+	color: #222;
+	font-size: 7pt;
+}
+.pp:hover {
+	width: 235px;
+	padding: 1em;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+}
+.pp b {
+	display: block;
+	margin-top: 10px;
+}
+.pp img {
+	width: 40px;
+	float: left;
+	margin-right: 10px;
+}
+img.left {
+	float: left;
+	margin: 5px;
+}
+img.right {
+	float: right;
+	margin: 5px;
+}
+table.score {
+	border: 4px solid grey;
+	border-top: none;
+	border-collapse: collapse;
+	width: 600px;
+	padding: 10px;
+	margin-left: 20px;
+}
+td.score {
+	border: 1px solid #666;
+	height: 20px;
+	padding: 2px;
+}
+th.score {
+	height: 20px;
+	padding: 2px;
+}
+</style><div class="banner" style="position: relative;">
+  <img src="http://i.imgur.com/3MAzZZL.png" class="big"><img src="http://i.imgur.com/ok3YjtL.png" class="fade"><h1 style="position: absolute;">Gardiner</h1>
+  <h2 style="position: absolute;">Roginol</h2>
+</div>
+<div class="main" style="position: relative;">
+  <div class="white" style="position: absolute;"></div>
+  <div class="content" style="position: absolute;">
+    <div class="section" id="beginning">
+      <div class="box">
+        <div class="date">07<b>Nov</b></div>
+        <div class="update">
+          added a new lister
+        </div>
+        <div class="date">02<b>Oct</b></div>
+        <div class="update">
+          added 1 new character to my other pets section
+        </div>
+        <div class="date">29<b>Sep</b></div>
+        <div class="update">
+          art by <a href="/userlookup.phtml?user=ade1">Rebekah</a> and <a href="/userlookup.phtml?user=lllustrator">Nobody</a> added
+        </div>
+        <div class="date">25<b>Sep</b></div>
+        <div class="update">
+          added challenge 19 to the re:creation section
+        </div>
+        <div class="date">24<b>Sep</b></div>
+        <div class="update">
+          fixed a few descriptions, the bugged credits section and changed a few aesthetic details of the page
+        </div>
+        <div class="date">20<b>Sep</b></div>
+        <div class="update">
+          sent second and third prompts, added second prompt and re:creation section, moved some things around again
+        </div>
+        <div class="date">19<b>Sep</b></div>
+        <div class="update">
+          added and sent the first prompt
+        </div>
+        <div class="date">17<b>Sep</b></div>
+        <div class="update">
+          added 8 new adoptable colors and about the owner section
+        </div>
+        <div class="date">16<b>Sep</b></div>
+        <div class="update">
+          added 2 adoptable bases, 7 new colors and moved some more stuff around
+        </div>
+        <div class="date">14<b>Sep</b></div>
+        <div class="update">
+          added 1 new affiliate
+        </div>
+        <div class="date">09<b>Sep</b></div>
+        <div class="update">
+          earned 2 new trophies
+        </div>
+        <div class="date">06<b>Sep</b></div>
+        <div class="update">
+          moved some pages around, added welcome section and disclaimers 
+        </div>
+        <div class="date">03<b>Sep</b></div>
+        <div class="update">
+          updated chapter 1, added my other pets
+        </div>
+        <div class="date">01<b>Sep</b></div>
+        <div class="update">
+          added pet information, nc and np wishlist, new customization, new petpet, pet goals, 1 new affiliate and finished petlookup
+        </div>
+        <div class="date">31<b>Aug</b></div>
+        <div class="update">
+          added 2 new affiliates
+        </div>
+        <div class="date">30<b>Aug</b></div>
+        <div class="update">
+          earned 2 new trophies and 4 new affiliates
+        </div>
+        <div class="date">29<b>Aug</b></div>
+        <div class="update">
+          added 3 new affiliates and fixed the art section
+        </div>
+        <div class="date">25<b>Aug</b></div>
+        <div class="update">
+          added new background, added trophies section, 2 new buttons and 2 new affiliates
+        </div>
+        <div class="date">24<b>Aug</b></div>
+        <div class="update">
+          Finished the About Roginol section, added an Adopted section and added 3 new affiliates 
+        </div>
+        <div class="date">23<b>Aug</b></div>
+        <div class="update">
+          added new affiliate, added 2 more keywords and fixed the spacing
+        </div>
+        <div class="date">21<b>Aug</b></div>
+        <div class="update">
+          added new about section, new art pieces and board style
+        </div>
+        <div class="date">19<b>Aug</b></div>
+        <div class="update">
+          added emotions, wardrobe, playlist, 2 new buttons and themed keywords
+        </div>
+        <div class="date">18<b>Aug</b></div>
+        <div class="update">
+          added a new page for the story and finished the prologue
+        </div>
+<div class="date">16<b>Aug</b></div>
+        <div class="update">
+          fixed layout and font issues, added new images to the introduction page
+        </div>
+        <div class="date">15<b>Aug</b></div>
+        <div class="update">
+          added banner, sitely, reference, relatives, companions, rivalries, first memories, catalyst events, beliefs, moodboard and art
+        </div>
+        <div class="date">14<b>Aug</b></div>
+        <div class="update">
+          Began editing the page after being inspired by the <a href="/~2020">re:creation</a> challenge :) added plans, introduction, profile and world
+        </div>
+        <div class="date">xx<b>xxx</b></div>
+        <div class="update">
+          update here
+        </div>
+      </div>
+      
+      <center><h1>~ Welcome ~</h1></center>
+      <p>Hello and welcome to Roginols page, my name is <a href="/userlookup.phtml?user=sterneflugel">Abyss</a> and I've been on neopets since 2009, if you want to see more <a href="#about">about Roginol</a>, please keep on reading, if you are interested in my other pets you may click <a href="#credits">this link</a> or <a href="/~_suco_">this one</a> to be directed to a different section or my character directory respectively.</p>
+<p><i>Please be warned that this story may deal with complicated subjects, could be upsetting to some and has some creepy imagery!</i> Most events align slightly with the neopets canon but locations and characters were up to my interpretation, so be mindful of that.</p><br><h2>Plans:</h2>
+      <div style="text-align: left; display: inline-block;">
+<font size="2"><ul><li>☒ <strike>Finish Roginols basic profile</strike></li>
+        <li>☒ <strike>Do research for world building</strike></li>
+        <li>☒ <strike>Remake Roginols customization</strike></li>
+        <li>☐ Write at least 3 chapters</li>
+        <li>☒ <strike>Give Roginol a better petpet</strike></li>
+        <li>☒ <strike>Make a petlookup</strike></li>
+        <li>☒ <strike>Finish playlist</strike></li>
+        <li>☒ <strike>Make more buttons</strike></li>
+      </ul></font></div>
+<div style="text-align: center; display: inline-block;">
+<font size="2">
+<ul><li>☐ Proofread everything</li>
+<li>☐ Re-render bugged images</li>
+        <li>☒ <strike>Finish Welcome page</strike></li>
+        <li>☒ <strike>Make renders for the prologue</strike></li>
+        <li>☒ <strike>Make an influence list</strike></li>
+        <li>☒ <strike>Fix page credits</strike></li>
+        <li>☒ <strike>Make pet goals</strike></li>
+        <li>☒ <strike>Make wishlist</strike></li></ul></font></div>
+<div style="text-align: right; display: inline-block;">
+<font size="2">
+<ul><li>☒ <strike>Finish Themed Keywords</strike></li>
+<li>☒ <strike>Add affiliates</strike></li>
+        <li>☒ <strike>Make a board style</strike></li>
+        <li>☒ <strike>Add dividers</strike></li>
+        <li>☒ <strike>Find adoptables</strike></li>
+        <li>☒ <strike>Write about owner</strike></li>
+        <li>☒ <strike>Make Adopts</strike></li>
+        <li>☒ <strike>Make a proper gallery</strike></li></ul></font></div></div>
+    <div class="section" id="introduction">
+      <h1>Introduction</h1>
+      <center><p>Roginol is a lonely warrior who once served Lord Darigan's military in the golden days of his kingdom, when the city still floated<br> peacefully and way before the curse of the orb took over their bodies and their minds. As a child, the girl grew up in the peaceful<br> farms around the Lord's land with her single father, who knew her heart was supposed to be elsewhere, but was afraid of where<br> that fiery passion inside of her would end up. Always fascinated by the way of the sword and the knights of Darigan, the child,<br> who did everything she could to become one, ended up as one of the first female generals of Lord Darigan, beginning her job<br> by protecting the city from the creatures around it. Now, after the red bath left behind by the war, she walks Neopia in search<br> of answers and a way to redeem herself for the harm she has done to so many.</p><img src="http://imgur.com/UvTgbnM.png"></center><br><h1>Profile</h1>
+<table width="850" border="1"><tr><td><center><h2><font size="5">Basic Stats</font></h2></center></td><td><center><h2><font size="5">Personality</font></h2></center></td><td><center><h2><font size="5">Interests</font></h2></center></td></tr><tr><td width="32%"><font size="2"><b>Name:</b> Roginol Gardiner<br><b>Species:</b> Darigan Bruce<br><b>Age:</b> 35<br><b>Birthday:</b> June 22<br><b>Gender:</b> Female<br><b>Pronouns:</b> She/Her<br><b>Height:</b> 1,85 cm / 6'07" ft<br><b>Weight:</b> 167 pounds<br><b>Eye Color:</b> Red Left Eye - Blind / White-ish Right Eye<br><b>Hair Color:</b> Crimson Red<br><b>Markings:</b> Long, intricate scar on the left arm<br><b>Powers:</b> 
+<br><i>Great Strength</i> - Able to do feats of strength greater than many others;
+<br><i>Shadow Arm</i> - After being healed from the curse of The Orb, a dark shadow-like aura stays on the arm of the subject, this strange shadow can consume their whole arm after a great deal of damage is dealt to the body, causing the host to go berserk;<br><b>Element:</b> Shadow<br><b>Zodiac:</b> Cancer<br><b>Occupation:</b> Mercenary</font></td>
+<td width="32%" valign="top"><font size="2">Roginol is a quiet and gloomy woman who generally prefers to not stand out, but because of the curse, her mental state had declined significantly. She has an uncontrollable urge to not hurt others, which causes paranoia. Deep down, she is a more of a hopeless romantic type of person - dreaming of a world of peace and equality. When happy she smiles softly, which many would say does not fit in with her tough demeanor, and while under stress she tends to toughen her stance and poise in an attempt to hide her anxious thoughts. With an emotionless, almost sad, face most of the time, she only emotes in extreme situations.</font><br><br><center><div style="width: 260px; display: inline-block; margin: 10px auto;">
+<div style="text-align: left; display: inline-block;">
+<font size="2"><i>Easygoing<br>
+Confident<br>
+Sociable<br>
+Clever<br>
+Modest<br>
+Pious<br>
+Charismatic<br></i></font></div>
+<div style="text-align: center; display: inline-block; margin-left: 10px; margin-right: 10px;"><font size="2">
+□ □ ■ □ □ <br>
+□ ■ □ □ □<br>
+□ □ □ □ ■<br>
+□ ■ □ □ □<br> 
+■ □ □ □ □ <br>
+□ □ □ ■ □<br>
+□ □ ■ □ □ </font></div>
+<div style="text-align: right; display: inline-block;">
+<font size="2"><i>Intolerant<br>
+Meek<br>
+Aloof<br>
+Naive<br>
+Pretentious<br>
+Agnostic<br>
+Unlikable<br></i></font></div></div>
+</center></td><td width="32%" valign="top">
+<center><font size="2"><b>Likes</b> & <i>Dislikes</i></font>
+
+<div style="width: 240px; display: inline-block; margin: 10px auto;">
+<div style="text-align: left; display: inline-block;"><font size="2"><b>
+✔  traveling<br>
+✔  helping others<br>
+✔  flowers<br>
+✔  swords<br></b></font></div>
+<div style="text-align: right; display: inline-block; margin-left: 10px; margin-right: 10px;"><font size="2"><i>
+✗ thieves<br>
+✗ war<br>
+✗ rulers<br>
+✗ lies<br></i></font></div></div></center><br><font size="2"><b>hobbies:</b> collecting flowers, reading, training<br><b>life pursuits:</b> acceptance for her mistakes, ending her curse for good, finding true love<br><b>fears:</b> losing control, passing, the dark<br><br></font><center><img src="http://i.imgur.com/WC9Evm2.png" style="width: 150px; height: 100px;"><img src="http://i.imgur.com/qLlBpsR.gif" style="width: 180px; height: 100px;"></center>
+</td></tr></table><h1>Accomplishments</h1>
+<p>I hereby begin to write this paper to docment my accomplishments in this military position to be able to apply for the higher ranking hunts in the same way as my other peers.</p><p>
+</p><p>Defeated many werelupes, I couldn't count if I wanted to;<br>
+The first woman to be accepted at the Citadel's Military;<br>
+Now responsible for the training of the newest recruits;<br>
+Skiled in the art of the sword;<br>
+Known monster hunter.</p>
+
+<p><i>The page ends abruptly...</i></p>
+
+<h1>Quotes from the Past and Future</h1>
+<center>~ The Battle with Lesser ~<br><i>I'm sorry, but I can't go easy just because it's you.'' - Roginol</i><br><br>
+
+~ The Encounter with Wendy ~<br><i>What a little pestilent child, I've already told you, you can't come with me,<br> unless you want to end your life early.'' - Roginol</i><br><br>
+
+~ Meeting Talise the Draik ~<br><i>How dare such a horrible creature exist in the same space as me and also<br> try to regard me as the same? We are nothing alike!'' - Roginol</i><br><br>
+
+~ About Life and Motivation~<br><i>Don't be so skewed, child, to others we are never going to be anything more than<br> monsters, so do what you believe is right, it's how I've been surviving so long.'' - Roginol</i><br><br></center>
+<h2>Wardrobe</h2>
+      <center><img src="http://i.imgur.com/Jj1kDSj.png" style="width: 640px; height: 360px;"><br><b>young normal outfit | young summer outfit | teen normal outfit | teen training outfit | adult military outfit | adult current outfit</b></center><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Relatives</h1>
+
+<img src="http://i.imgur.com/ssPxQ1j.png" class="right"><p>Roginol never had a big happy family, at the farm, the only relative living with her was her father, a hardworking man who wanted only the best for his daughter, teaching everything he learned in his journey about the lands outside of Darigan to the girl in hopes of her never wanting to leave, she was always incredibly interested in those stories, asking questions and dreaming of what the world outside was like, but later he regretted that decision once she showed interest in joining the military and fighting. Their relationship was quite lovable and nurturing to each other, fights were extremely rare. She loved him very much, even if her actions and words had been dismissive for most of their life, which she regrets very much.</p>
+<p>Her mother, however, had left not long after the girls birth, and Roginol knows almost nothing about her, and little was known other than what her father could remember. "A beautiful woman with long red hair like the autumn leaves, a smile as bright as the sun in Altador, and a fierce determination to do anything she put her mind into", that was how the man described the older woman, sadly, her whereabouts are unknown. And the girl never really had any drive to seek out information about her mother, always too focused on her training or work, the idea that the woman had "abandoned her" never left her mind either.</p><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Companions</h1>
+      <p>As a child, the only close friend Roginol had was Lesser, a young, almost heroic, man who wanted to be a real life hero like he would hear in the olden stories, their relationship was warm and friendly, even if the other boys would pester the girl for her ways.</p>
+<img src="http://i.imgur.com/uXJcxti.png" class="left"><p>Beyond the curse and subsequent to the girl roaming the lands for quite a few years, Roginol met with a young girl that seemed to be living in one of the Citadels old villages on her own, the dirty clothes suggested she was a farm maiden, but her cheerful nature almost made it seem like a curse had never affected the young one at all, even if the marks where still there - darkened hands and horns. Tired of being pestered for many many miles out of their initial meeting location, Roginol decided to let the girl accompany her, even if her instincts at first were to send the girl away in the incessant fear of not being able to protect the young one.</p>
+<p>With this unexpected encounter, Roginol continued her adventures, but now with a partner, <a href="/~WeebDesu">Wendy Duval</a>, a 14 year old girl full of life and cheerfulness that loved to frolic around alongside the older woman. On their very first stop, while the woman told her to stay hidden under a cape, was a small village close to Brightvalle, the young girl met for the first time those who did not like the spawns of Darigan, an old man confronted Roginol over why she dared to enter their lands and corrupt their surroundings, the calm woman simply bowed and gave her apologies, turning around and trying to leave the town without causing problems when the angry man began to scream and pulled the cape only to reveal the young girl.</p><p>Everything after that felt like a scene in slow-motion, the man grabbed the girls arm screaming to the others as she flayed around trying to run away, but with a single swift move, Roginol took Wendy back into her arms, prepared to see the consequences of her action to the end. But the young one plead for them to leave, Roginol turned her back to the village and ran as far as she could.
+</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Rivalries</h1>
+
+<img src="http://i.imgur.com/8uZoPun.png" class="right"><p>Even if she meant no harm to others, Roginol did collect quite a few enemies, be it the many villages who wanted absolutely nothing to do with the spawns of Darigan, as they began to be called after the curse had passed, or the roguish people she entered the way of to help someone else. But the biggest one of them all was <a href="/~CAPITALISATION">Talise Caparelli</a>, a wanted criminal who only knew how to hurt others, a dragonic creature that wanted nothing but riches, everything she standed for was the complete opposite of what Roginol believed in, a recipe for disaster had already been written when the two met for the first time.</p>
+<p>Roginol had accepted a bounty to find and end a draik who had been messing around and stealing from the village for a very long time, knowing she would find such creature in the surrounding forest she made her way to the dark and damp cavern only to find Talise relishing and laughing in her throne of bones. The lengthy battle that ensued between the two women was like an epic battle of old, but as sleazy as Talise was, she fled the duel only to spite the other one. Since those days the two have been at war whenever they meet.</p><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+</div>
+    <div class="section" id="world">
+      <h1>The World</h1>
+      <center><img src="http://i.imgur.com/69UNfMu.png" style="width: 50px; height: 50px;">Neopia is a planet in the Goldilocks Zone of an unknown star system, at an orbital distance to produce years of 365.25 days<br> (equivalent to Earth). It has a day/night cycle that is 24 hours in length. It supports a wide array of life forms, many species<br> of which collectively are grouped together as Neopets.'' -- <b>The Book of Ages<br><br><br><img src="http://images.neopets.com/template_images/meridell_floating_darigan.gif"></b></center><br><p>Home to many different kinds of creatures, including Neopets and Faeries, Neopia is quite abundant with resources. This world is divided into two main continents. This once calm and ordinary world has seen it's fair share of wars and red baths. The land where Roginol specifically was born in is located in the northeastern part of the southern continent. There, floating in the sky, you may find the Darigan Citadel, ruled by Lord Darigan and it's military force. Once a normal kingdom which was powered by a magical orb of almost infinite power, Darigan Citadel is now cursed. The orb that brought rich and fertile lands was stolen by King Skarl, who sent a conroi in secret to steal said magical power, due to his envy of Darigan Citadel's riches. Unknown to both parties, disrupting the power of the magical object released a terrible curse on the citizens of the Citadel, twisting and turning their bodies and personalities into a dark mess, many of this poor souls went completely berserk, doing away everything in their way, Roginol was one of them.</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Ruling Power</h1>
+<img src="http://i.imgur.com/69UNfMu.png" style="width: 50px; height: 50px;">His land was plagued by famine and poverty after Meridell stole the magical orb. Bent on revenge Lord Darigan spent many long years tracking down the one thing that could restore peace to his people. When he finally found the orb he began a bitter war that left Meridell devastated as his minions stopped at nothing until they returned the orb to their master. Sadly the orb worked its foul magic on Lord Darigan and corrupted his once honest heart." -- <b>The Gallery of Evil</b><br><br><br><center><img src="http://images.neopets.com/new_shopkeepers/223.gif"><img src="http://images.neopets.com/new_shopkeepers/t_910.gif"><img src="http://i.imgur.com/o8fZdZz.png" style="width: 150px; height: 150px;"></center><br><p>Ruled by Lord Darigan, the first and still current ruler, who founded the kingdom, he does not have any children, and as was shown after his defeat, a high ranking member of the army takes his place should he die.</p> 
+<p>The citadel has two other chains of power nominated by him to keep the peace and order inside the boarders, the first of which is a military chain that boasts a large quantity of troupes, wielding magical weapons and warlocks, commanded by General Kass and General Galgarroth, and the second of which is a council, constituted of a Dungeon Master, a Sheriff, a Constable, a Mayor, a Captain, and two Chairmen, who have the power to vote who may keep power in case of the unfortunate demises of the current ruler.</p>
+<img src="http://i.imgur.com/69UNfMu.png" style="width: 50px; height: 50px;">Driven insane by invisible demons, this former general in Lord Darigan's army rose to power after his master's downfall. Through underhand means he slowly took control of the Darigan Citadel that loomed over the happy realm of Meridell, and used his influence to build an army. An army that he would use to try and conquer the lands below." -- <b>The Gallery of Evil</b>
+<p>In his brief attempt to rule the Citadel, General Kass tried to buy the loyalty of the council to move the kingdom into another war against Meridell, with this failure, he than began his secondary plan to eliminate anyone who defied him.</p>
+<img src="http://i.imgur.com/69UNfMu.png" style="width: 50px; height: 50px;">Also known as General Galgarrath, he is and was Lord Darigan's right hand man, with a brief trip to the dungeons during Kass's reign. Some may think him evil, but he is only doing what is best for his people.<br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Culture</h1>
+<center><img src="http://images.neopets.com/pets/closeattack/draconian_horde_right.gif" style="width: 150px; height: 150px;"></center>
+<p>In the beginning all citizens of the citadel were relatively normal neopets of all species, happy to be helping a prosperous kingdom grow with their own hands in a very medieval fashion, with farms and local craftsman teaching the younger generations how to keep producing to survive, cultivating the soil and frolicking around it's peaceful meadows. Only a few of the citizens yearned for something more exciting, with most of them joining it's military.</p>
+<p>During the curse, however, these citizens were corrupted by the magical powers of the orb, turning them into twisted monsters with a want for red, maniacal and berserk, these once calm and happy people now roamed the lands destroying and pillaging everything in sight.<br>
+After the curse subsided most citizens went back to their normal selves, a few of these now try to repair the damage they've done while others turned into scholars to docment the change and history of the land, but many others developed an evil personality that now dominates them, many of these still live within the citadel, giving it a bad reputation among the other kingdoms of Neopia.</p>
+<p>Much like the other lands surrounding it, poverty is the norm inside the Citadel after the curse, with the new lack of farmland in the floating fortress life for most citizens is very complicated, with only very simple foods being offered to the population, with the very small cursed garden only being able to offer a few berries. The imports from the land bellow also suffer from the Citadels bad reputation, so the prices are quite high, making the citizens pay a lot in taxes.</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Beliefs</h1>
+      <p>Way before the war, as the Citadel grew, most citizens believed the orb of power to be a gift from outer powers that reigned over their land. Worshiping it's power and gifts to the land every year with a grand party were everyone would bring a gift crafted by them, be it a trinket, weapon, or even food. In the aftermath of battle, however, many began to see the orb as a treacherous item, that fooled them into believing it's lies of a prosperous land, now only believing in Lord Darigan and his powers.</p>
+<p>Roginol, however, didn't stop believing that an outer power still looks after the land and all of the citizens of the Citadel, but her belief did diminish after everything she had to endure out in the world. </p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Catalyst Events</h1>
+      <p>After meeting Lesser, the child of a neighboring farmer, who wanted to move out to the Citadel and become as well known as Kass was in the military, the idea started to spin around Roginols head, could she also fight for her kingdom? But no one had never heard of a woman in the military, and wasn't she very weak? The boys teased her for having such a foolish dream, but that only fueled the young girl to prove them wrong.</p>
+<p>At the age of 19, the girl enrolled for the first time in the trials for the force, taking with her only a dull sword - given to her by her father on her 15th birthday -, she knocked every opponent down with swiftness and skil, making the heavy steel sword look almost weightless.</p>
+<p>Rising in the ranks quite quickly thanks to her skil, Roginol earned the name of 'crimson bird' amongst her peers and comrades because of her flowing red hair and unique way to use a sword, almost as if she was flying in the battlefield.</p>
+<p>As the battle against Meridell approached, her ranking was raised to General, but suddenly her head began to spin and turn, hurting like never before. The curse had begun, her body fell to the ground and she contorted her limbs trying to fight against it. However, none of the citizens were able to break free of the curse, a red bath ensued and after the final battle, she regained control of her mind again. What she saw was a horrible sight of war and destruction, from that day on she swore to never again raise her sword in actual battle, but to only use it to help other.</p>
+<p>However, that wouldn't be such a simple thing, after the dismal failure of the Citadel to keep itself together, many from the outside began to steer away from the ones affected by the curse, calling them 'the spawns of Darigan', denying to even let them into villages, making Roginol roam around the lands of Neopia doing odd jobs as a mercenary.</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+    </div>
+    <div class="section" id="story">
+      <h1>First Memories ~ Lost Diaries</h1>
+      <p><b>First of the Month of Gathering, Year xx</b><br>
+- Dearest new diary, Papa just gifted me with this beautiful blank book and told me to write about my day in it since I don't have many friends to talk to.<br>
+I've been 13 for quite a few months and yet I don't feel any different from before, the other day I saw Lesser around the market and almost couldn't recognize him!<br>
+I didn't have the courage to talk to him... But it doesn't matter, once I train harder and prove to him I can become part of the military I'll have enough courage!<br>
+Papa doesn't like that idea, but I don't want to be in the farm forever!<br><br></p>
+<p><b>The 22th of the Month of Relaxing, Year xx</b><br>
+- Today was my 15th birthday, Father seemed a bit worried about the recent rumors about Meridell's King making advances towards the Citadel, but still took his time to celebrate with me, he even got me a real sword!<br>
+I can finally enter the trials for Lord Darigan's military!<br>
+I won't let the boys make fun of my dream, they have no idea what they are talking about, who said a girl can't fight?<br>
+Surely someone that knows nothing about girls!<br>
+I've gotten quite a bit better over the last few weeks, but I wonder what the others are like...<br><br></p>
+<p><b>The xxth of the Month of ------- Year xx</b><br>
+- May be marked in history that today I leave to become the first female private in the Citadels military!<br>
+I've conquered the trials with ease after so many years training just for this, I hope to be the first of many others that may see this as an opportunity.<br>
+No man can match my skil or strength.<br>
+Father cried very much with the news that I will be departing to the Citadel, but this is my dream and I can't give up now, I've already proved many others wrong.<br><br></p>
+<p>(The page is stained and the handwriting is almost illegible)</p>
+<p><i>ReD rEd ReD rEd<br> ReD rEd ReD rEd ReD<br>
+eVeRyWhErE mY hEaD hUrTs It HuRtS iT<br>
+hUrTs It HuRtS iT sPiNs SpInS sPiNs SpInS<br>
+wHeRe Is<br>
+PaPa??????<br><br>
+ReD rEd ReD hAnDs ReD<br>
+rEd FaBrIc<br>
+TrEmBlInG<br><br>
+wHy Is PaPa CoLd CoLd CoLd CoLd<br>
+PaPa PaPa PaPa PaPa</i><br></p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<a href="#story2" style="float: right;"><img src="http://i.imgur.com/bPNzbCU.png"></a></div>
+
+<div class="section" id="story2">
+<h1>Prologue</h1>
+<center><img src="http://i.imgur.com/6VJREN6.png" style="width: 350px; height: 197px;"></center>
+      <p>On the twenty second day of the month of relaxing, a new little creature was hatched in the land surrounding what would soon be known as the Darigan Citadel, this small creature was called Roginol. This small child had always been curious about the outside world and what was beyond the fields that seemed to have no end, the Gardiner Farm was quite spacious and had many different kinds of fruits and vegetables growing under the care of her father, a man who traveled around Neopia in search of farming knowledge.</p>
+
+<p>During his long journey, he had the luck to find his significant other, Roginols mother, a striking woman that had no fear to do as she pleased, her beauty was unmatched, the long, flowing, red hair shaped her sleek face and thunderous blue eyes that seemed to glow with determination, her smile was contagious to everyone around, but her impulsiveness led the woman a tortuous path in life, but it also led to the birth of Roginol, which she was very happy about, but the woman could not commit to spending her life in a farm and doing nothing more than that.</p>
+
+<p>While settling down on the farm to raise the young child, the man felt a happiness he had never experienced before, but little did he know his partner didn't feel as happy, being around the small growing creature who was so eager to listen and learn about everything was able to warm the hearts of both, which delayed the older woman's departure by a whole year. But at that moment, as happy as she felt, she couldn't ignore it anymore, her heart yearned for adventure and adrenaline, hearing that the man felt heartbroken, but still knew he couldn't trap a free bird in a cage and expect them to sing happily forever, so they parted their ways while the small child remained in the farm to learn and grow.</p>
+
+<p>Around the age of 5, Roginol began to meet the other children who lived in the surrounding farming area, one of them being Lesser, a brave young boy who's dream was to become a hero of the now established Citadel of Darigan, always reciting the stories of old and acting them out with the other children. While alone, the two would always sit by the lake, which perched not far into the forest that enclosed the continent and the areas of the land itself, spending long hours and hours just imagining and talking about what it would be like to travel and see so many different places and people.</p>
+
+<p>Behind the scenes the young girl, however, began to develop feelings for the young boy whom she was so close to, but also for the idea of fighting for her people and protecting the lands, so, at the age of 10, she began to train with the boy so both would enter the trails of the lord together, but that did not sit well with the other boys that also wanted to become knights of the military, even if Lesser would fight and argue against them about how backwards they were being, the others would still pester the girl about how she could never enter the military nor fight for anyone. Despite those awful experiences with others, however, her desire to prove those horrible children wrong were only fueled even more, and so began to burn the flame that moved Roginol to fight and train every single day.</p>
+
+<p>During those years, meanwhile, her father was very much against those dreams just as much as the boys, but he could never have stopped her from trying and training to fulfill them, and after noticing that she was not going to stop even if he or the rest of the people didn't approve of it, he finally decided to give into her determination, which reminded him very much of his past significant other, which scared the man to death since the girl was very much growing to be just like her mother. But even shaken by his own fears, at her 15th birthday, he made a very difficult decision to actually outwardly support her during this arduous journey, giving her a brand new steel sword he commissioned off of a friend on the Citadel. More than happy, the girl thanked her father with all her heart, and decided to train even harder to make the old man proud.</p>
+
+<p>Whilst, her feelings for the boy, Lesser, only grew deeper, wraping around her hearth like the thorns of a prickly rose, yet the two also only grew apart with the passage of time, the boys interest hadn't changed at all, but he also knew he wouldn't be able to win standing by the side of someone no one wanted to see succeed, or so was what all of the others started to plant in his head, and while that hurt his feelings just as much, he saw no other way around it, he had to separate himself from Roginol. With a heavy heart that weight like a block of pure silver, the boy confronted her, saying horrible things only to stop her from looking for him ever again, the girl cried with every word that felt like sharp blades breaking her heart into tiny pieces.</p>
+
+<p>Miserable after that encounter and with those heavy feelings in her chest, the girl decided to prove every single one of them all wrong, they surely were very wrong about all of this. And with a broken heart, she continued her training with even more rage and a flame that burned even brighter inside of her, she had no more reason to hold back at all.  And as the years passed, that passion the once little girl had showed had only grown deeper and deeper to feel the hole left behind by the young man, and began twisting into a desire to actually prove to the whole world she could be just as good, if not even better than a man with a sword, which horrified and scared the old man very much, he had already lost his significant other for that same impulsiveness, was he going to lose his child as well?</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<a href="#story" style="float: left;"><img src="http://i.imgur.com/NrOn73e.png"></a><a href="#story3" style="float: right;"><img src="http://i.imgur.com/bPNzbCU.png"></a></div>
+
+<div class="section" id="story3">
+<h1>Chapter 1 - The Path to the Citadel</h1>
+<p>After such a miserable and despair inducing nightmare of a day, Roginol layed her head on the fluffy pillow that adorned her small but comfortable bed, thoughts swirling around her head, how did it get to this? Did the others hate her that much? The girl couldn't answer, and she didn't want an answer, so she blocked those feelings out, she would never speak or think of them ever again. So the mornings came and went, and 4 whole years had already gone by in a flash, the girl had grown in every sense, the muscles in her body ached in pain after such arduous training every single day and night, her worried father couldn't do a thing about it other than pray she would not destroy her body. But the day to end her wait finally came, at 19 years old she was ready to finally face the tests known as the "Trials of Darigan", a series of physical assessments that had to be completed to enter the Citadels military.</p>
+<p>Every year a few of the citizens from all over the region competed against one another in the trials, but even fewer were ever able to complete all of them, ending with years were only one or two participants were chosen, but she wasn't afraid anymore, the girl had honed her abilities enough to crush anything on her way, the only thing that could ever stop her was her own father. The man feared for the girls life very much, even if he knew she would never stop, "please my dear, don't do this to yourself...", his words felt like blades of steel, but Roginol couldn't turn back anymore, "I'm sorry father, but I can't let them doubt me any longer", and with those last words, she took the first step out of the Gardiner farm, for the first time she was heading for the Citadel with no intent on coming back.</p>
+<p>Her path, however, would not be an easy one, the farms that cultivated the food for the markets on the Citadel where located quite a few miles away from the town itself, but with steady steps the girl made her way through the forest and meadows while her eyes danced around, she knew something was lurking in the shadows of the trees, and her guard was never down. The gigantic creature, a grey werelupe, jumped in a single movement over the bushes with it's claws ready to dig into her, but with a single strike the girl pulled the sword from her back and cut her foe down to the ground. The adrenaline rushed in her veins while her hands shook in desperation, she had never in her life used her skils for anything other than training, with her calm facade shattered by the creature that now blocked the path behind her, the girl feel to her knees, her now stained sword in the ground.</p>
+<p>The sword, once light as a feather, now seemed to weight as much as the monster itself, but her conviction quickly snapped back in place, she couldn't dwell on that no more! Her path wasn't getting any shorter, so the girls stride quickened in a hurried state, while her mind processed what had just happened, her body moved on it's on to the Citadels gate. As the forest ended and the path became paved by stone her heart slowed down with her steps, she was almost at the entrance to the city, but something did not feel right. Just as she looked to the side of the road the marks left by heavy boots grabbed her attention in a second, who could have been entering the forest in such an awkward spot? With her curiosity peaked and a bit of time to spare, Roginol entered the clearing left behind by what seemed to be a military unity bearing a coat of arms that seemed quite familiar to her, many thoughts danced around her head, but they were all interrupted by the loud voices of the men approaching the camp.</p>
+
+<p>."I surly wonder what King Skarl even wants with this place", the brunette soldier said laughing, his face dripping wet and his helmet under one of his arms, "It's probably just another meaningless little war, nothing we can't deal with", the other, who seemed to be a lot older than the others, spouted out while putting the helmet back on his head. They hadn't yet noticed her, but the girls body simply couldn't move once again, the news truly were real, Meridell was planning an attack on Darigan, after all. While frozen in time inside her own head, the group of three or four man took notice of the girl, "What do you think you are doing here?", "She has a sword... we shouldn't let out guard down", "it's just a girl, are you really afraid of her?", none of their words, however, reached her ears, but as she turned around without even thinking they all reacted as a treat, they couldn't have imagined she had such strong muscle memory, but whiting seconds, Roginol had already took her sword in her hand and blocked the incoming attack from the brunette soldier, who now dropped his helmet to the ground only to hold his sword with both hands. Even after putting the weight of his whole body on the sword he couldn't move the girls sword a single inch.</p>
+
+<p>."Don't you dare attack me in such an undignified way, you skamelar mutt", the girl uttered through the teeth while pushing her sword forward with so much strength the man was almost kneeling at her feet. Taken aback by her sheer strength the man moved out of the swords way only to almost get hit by it, gaining a new scratch to adorn his shining armour, while letting out a scream of pure dread, "This is no ordinary girl, this but a monster!", turning around once more, Roginol shafted the sword back on it's sheath and resumed her way to the Citadels gate at once. The thoughts in her head were still a jumbled mess of conspiracies, there was no real reason for, what seemed like, a whole order to be scouting around the kingdom other than a war, and there was also no way Lord Darigan hadn't noticed it yet.</p>
+
+<p>As Roginol got closer to the gate, the soldiers stopped her asking for identification, the entrance to the city had always been a long process, but during the trials it seemed to be even more difficult. Showing the two men the letter she had received from the court accepting her entrance on the trials they sneered letting a condescending chuckle out as the girl took the black papered letter back and crossed the gate, "there's no way a woman will ever be able to endure the trials", those words cut the girls heart in tiny pieces, her skils were again being judged by something she had no control over, "I'll prove them all wrong", she muttered to herself while walking and looking at her feet, only to bump into someone else, "I'm so-", her words cut off as she looked up to meet their gaze.</p>
+
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<a href="#story2" style="float: left;"><img src="http://i.imgur.com/NrOn73e.png"></a><a href="#story4" style="float: right;"><img src="http://i.imgur.com/bPNzbCU.png"></a></div>
+
+<div class="section" id="story4">
+<h1>Chapter 2 - The Trials of Darigan</h1>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<a href="#story3" style="float: left;"><img src="http://i.imgur.com/NrOn73e.png"></a><a href="#story5" style="float: right;"><img src="http://i.imgur.com/bPNzbCU.png"></a>
+</div>
+
+<div class="section" id="story5">
+<h1>The Letter</h1>
+<b>The xxth of the Month of ------, Year xx</b><br><p>Dearest Father, I'm  very sorry for not sending notice sooner, the life in the Citadel is a lot more chaotic than I was expecting. All of my comrades saw my fights during the trials, it's almost like none of them trust me or as if they were scared of me... I was so very excited to meet the others, but it's fine, I've completed my goal, now I have to work even harder to get into the higher ranks and prove that I deserved to be here. The pay isn't as bad as I expected, to tell you the truth, I can go by quite well with it, but I might get a few side jobs to help you with the costs of the farm, I know it's been hard taking care of everything on your own. I overheard some of the other soldiers talking about how they had been making a lot of money from hunts and mercenary work for other villages,  I could probably try my hand at that.</p>
+<p>I know you've been worrying about my well-being, Father, please rest assured and trust my words when I say it, I've been taking good care of my health during this times of change, and the training provided by the academy isn't as harsh as everyone makes it seem to be. I haven't yet been deployed anywhere, but I believe they will be sending me to the northern forest soon, the werelupe problems seem to be only getting worse on those parts, I wonder why... They have quite a big village close to that area, which, contrary to our own, has been fighting the monsters since the beginning of time. Whenever I can I'll make sure to visit the farm to see you, even though I'm sure Lesser has been very angry at me since the opening of the trials... hope he can forgive me for going so hard on him during our battle, I truthfully did not mean to hurt him, ever, please, send my regards to him.</p>
+<p>At this moment, General Lord Kass and General Galgarroth have been investigating the weird troops from Meridell that have been going around the forest line in front of the Citadels gate and surrounding area, I myself saw a few of them when coming back to the city the other day, they've been worried sick that Meridell might be trying to start a war of some sort with us since they've received a peace treaty from Brightvale. I had heard you commenting about this with some of the others, but I have no real news so far, I promise to update you if anything happens here or if I discover something that has been going on. Please take care and send me news when you can, I promise I'll try and send letters more often than this.<br><br>
+
+- My best regards to everyone, Roginol</p>
+
+
+
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<a href="#story4" style="float: left;"><img src="http://i.imgur.com/NrOn73e.png"></a><a href="#story6" style="float: right;"><img src="http://i.imgur.com/bPNzbCU.png"></a>
+</div>
+
+    <div class="section" id="aesthetics">
+<center><h2>Olden ~ Dark ~ Pious ~ Claret ~ Warrior ~ Cursed</h2></center>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<img src="http://i.imgur.com/lC1I0Qg.jpg" style="width: 450px; height: 360px;"><img src="http://i.imgur.com/CrnPz9x.png" style="width: 450px; height: 360px;"><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+      <h1>Board Style</h1>
+<center><img src="http://i.imgur.com/JcymIA2.png"><br><img src="http://i.imgur.com/mc8UJeW.png" style="width: 628px; height: 168px; border: black 1px solid;"><br><img src="http://i.imgur.com/em2ssbn.png" style="width: 628px; height: 168px; border: black 1px solid;"></center><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Petlookup</h1>
+<center><img src="http://i.imgur.com/V3mTh81.png" style="width: 450px; border: black 1px solid;"></center><br><center><img src="http://imgur.com/UvTgbnM.png"></center></div>
+
+
+<div class="section" id="about">
+<h1>Roginol the Darigan Bruce</h1>
+<div class="card">
+				   <a class="overflow" href="/petlookup.phtml?pet=roginol" style="position: relative;">
+				   <img src="http://pets.neopets.com/cpn/roginol/1/5.png" class="pet"><div class="pp" style="position: absolute;">
+				   <img src="http://images.neopets.com/items/gathow_white.gif"><b>Rowan</b>the White Gathow
+				   </div></a></div>
+				   <b>Name:</b> <a href="/petlookup.phtml?pet=roginol">Roginol</a><br><b>Color:</b> Darigan<br><b>Species:</b> Bruce<br><b>Type:</b> Converted<br><b>Creation Date:</b> 22 of June 2005 (Y7)<br><b>Sun:</b> Cancer<br><b>Moon:</b> Capricorn<br><b>Ascendant:</b> Scorpio<br><b>Adopted in</b> xx/xx/2017<b><br>Goals:</b><br>Make a secondary BD pet<br><i><strike>Create a few new customs</strike></i><br>Win a Gold BC Trophy<br><img src="http://images.neopets.com/items/dto_flowercraft_set.gif" title="during her younger years, other than her obsession with knights, Roginol loved to arrange the pretty flowers she would collect in the forest"><img src="http://images.neopets.com/items/dto_darigancheckers.gif" title="inside the Darigan castle there was never much to do while waiting for the next assignment, many of the soldiers would play checkers, and Roginol wasn't any different, developing quite an affinity for it"><img src="http://images.neopets.com/items/bd_grarrlgeneral_sword.gif" title="being a knight means you have to own a sword, and even after being gifted one of the official military swords, she still insisted in using the one her father brought"><img src="http://images.neopets.com/items/bfm_skeithshield.gif" title="a coat of arms is a symbol a honor amongst every military alike, and for Darigan it was a sign of a prosperous future, to Roginol it meant victory over those who shooed her down"><img src="http://images.neopets.com/items/toy_uncursed.gif" title="the wise and powerful Lord Darigan had left Brightvale to raise his own kingdom amidst a land forgotten by time and deemed by many a lost cause, Roginol had fond memories of their conversations before the war"><br><font color="#A9A9A9">hover over items to see explanation</font><br><br><b>Other Customizations:</b><br><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/172/855/small_preview.png"><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/176/083/small_preview.png"><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/176/088/small_preview.png"><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/176/091/small_preview.png"><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/176/095/small_preview.png"><img src="http://openneo-uploads.s3.amazonaws.com/outfits/002/176/105/small_preview.png"><br><b>Neopets Items:</b><br><font color="yellow">NP Wishlist</font> | <font color="red">Impossible to get</font> | <font color="green">NC Wishlist</font> | Owned Items<br><img src="http://images.neopets.com/items/bg_darigancitadel.gif" style="border: 2px solid grey;" title="Creepy Darigan Citadel Background"><img src="http://images.neopets.com/items/clo_darigan_bruce_collar.gif" style="border: 2px solid grey;" title="Darigan Bruce Collar"><img src="http://images.neopets.com/items/gif_ddY21_leafy_vines.gif" style="border: 2px solid yellow;" title="Leafy Vines"><img src="http://images.neopets.com/items/gif_hangingvines_garland.gif" style="border: 2px solid yellow;" title="Hanging Vines"><img src="http://images.neopets.com/items/gif_fg_brambles.gif" style="border: 2px solid yellow;" title="Bramble Foreground"><img src="http://images.neopets.com/items/bd_acy18_armour_dar.gif" style="border: 2px solid yellow;" title="Darigan Citadel Altador Cup Armour"><img src="http://images.neopets.com/items/clo_bruce_cool_pants.gif" style="border: 2px solid yellow;" title="Cool Bruce Trousers"><img src="http://images.neopets.com/items/clo_hand_wrap.gif" style="border: 2px solid yellow;" title="Hand Wrap"><img src="http://images.neopets.com/items/gif_archway_ancient_fg.gif" style="border: 2px solid yellow;" title="Ancient Archway Foreground"><img src="http://images.neopets.com/items/toy_shrubberybush.gif" style="border: 2px solid yellow;" title="Shrubbery"><img src="http://images.neopets.com/items/mall_acc_gladiatorsword.gif" style="border: 2px solid green;" title="Gladiator Sword"><img src="http://images.neopets.com/items/clo_fancy_theatre_cape.gif" style="border: 2px solid red;" title="Fancy Theatrical Cape"><img src="http://images.neopets.com/items/clo_nbl_gloves.gif" style="border: 2px solid yellow;" title="Neopian Battlefield Legends Gloves"><img src="http://images.neopets.com/items/ncl_simple_cape.gif" style="border: 2px solid yellow;" title="Simple Fur Lined Cape"><img src="http://images.neopets.com/items/bg_twr_destroyfestival.gif" style="border: 2px solid yellow;" title="Destroyed Faerie Festival Background"><img src="http://images.neopets.com/items/mall_acc_tarlawighorns.gif" style="border: 2px solid green;" title="Tarla Wig with Horns"><img src="http://images.neopets.com/items/mall_trink_treeleafshower.gif" style="border: 2px solid green;" title="Leafy Green Tree"><img src="http://images.neopets.com/items/mall_bg_greenhuntress.gif" style="border: 2px solid green;" title="Lustrous Forest Background"><img src="http://images.neopets.com/items/mall_acc_chainshoulder.gif" style="border: 2px solid green;" title="Chainmail Shoulder Armour"><img src="http://images.neopets.com/items/mall_bg_darigancastle.gif" style="border: 2px solid green;" title="Stately Darigan Castle Background"><img src="http://images.neopets.com/items/mall_clo_dariganuniform.gif" style="border: 2px solid green;" title="Dream Darigan Armour"><img src="http://images.neopets.com/items/mall_clo_battletop.gif" style="border: 2px solid green;" title="Battle Armour Top"><img src="http://images.neopets.com/items/mall_bg_nightmarecastle.gif" style="border: 2px solid green;" title="Nightmare Cloud Castle Background"><img src="http://images.neopets.com/items/mall_bg_wintermoon.gif" style="border: 2px solid green;" title="Winter Moon Background"><img src="http://images.neopets.com/items/mall_minimme16_scar.gif" style="border: 2px solid green;" title="MiniMME16-S2b: Adventurer Scar"><img src="http://images.neopets.com/items/mall_collect_kassarmour.gif" style="border: 2px solid green;" title="Kass Collectors Armour"><img src="http://images.neopets.com/items/clo_stylish_bruce_wig.gif" style="border: 2px solid yellow;" title="Chic Bruce Wig"><img src="http://images.neopets.com/items/mall_sunshower.gif" style="border: 2px solid green;" title="Sun Shower"><img src="http://images.neopets.com/items/mall_trink_bedblackroses.gif" style="border: 2px solid green;" title="Bed of Black Roses"><img src="http://images.neopets.com/items/gif_cover_of_darkness.gif" style="border: 2px solid grey;" title="Cover of Darkness Foreground"><img src="http://images.neopets.com/items/gif_fony14_fg_darkmagic.gif" style="border: 2px solid yellow;" title="Cloud of Dark Magic Foreground"><img src="http://images.neopets.com/items/mall_dd2011_bflarmour.gif" style="border: 2px solid green;" title="Battlefield Legends Armour"><img src="http://images.neopets.com/items/mall_pants_altadorwarrior.gif" style="border: 2px solid green;" title="Altadorian Warrior Plate Greaves"><img src="http://images.neopets.com/items/mall_trink_gothicsnowflakeshow.gif" style="border: 2px solid green;" title="Gothic Snowflake Shower"><img src="http://images.neopets.com/items/gif_tyweof2013_fore_ultbat.gif" style="border: 2px solid yellow;" title="Ultimate Battlefield Foreground"><img src="http://images.neopets.com/items/mall_trink_darkcloud.gif" style="border: 2px solid green;" title="Dark Rolling Clouds"><img src="http://images.neopets.com/items/mall_clouds_scaryblack.gif" style="border: 2px solid green;" title="Scary Black Clouds"><img src="http://images.neopets.com/items/mall_hh_teamsparkdarigan.gif" style="border: 2px solid green;" title="Darigan Citadel Team Sparklers"><img src="http://images.neopets.com/items/mall_bracers_darigan.gif" style="border: 2px solid green;" title="Spike Darigan Bracers"><img src="http://images.neopets.com/items/mall_bckground_nyindc.gif" style="border: 2px solid green;" title="New Years in Darigan Citadel Background"><img src="http://images.neopets.com/items/clo_vintacjersey_darigan.gif" style="border: 2px solid yellow;" title="Vintage Darigan Altador Cup Jersey"><br><b>NeoBadges:</b><br><a href="/~Fogg"><img src="http://i.imgur.com/z1lJXUl.png" title="My owner adopted me from the pound!" border="0" width="80"></a><a href="/~Fogg"><img src="http://i.imgur.com/YGBJrtL.png" title="I've been with my owner for 3 years!" border="0" width="80"></a><a href="/~Fogg"><img src="http://i.imgur.com/VnPWfK8.png" title="I was handpainted!" border="0" width="80"></a>
+<br><b>RE:Creation Trophies</b>
+<center><a href="/~2020"><img src="http://i.postimg.cc/k5j8tckv/recreation-2020-planner.png" width="80" title="Planner - Completed Page Goals"><img src="http://i.postimg.cc/G2HDPDRw/recreation-2020-writer.png" width="80" title="Writer - Wrote A Story"><img src="http://i.postimg.cc/cH2nFJ1K/recreation-2020-worldbuilder.png" width="80" title="World Builder - Described World Setting"><img src="http://i.postimg.cc/PqfYxcFq/recreation-2020-participant.png" width="80" title="Participant - Participated In 5 Challenges"><img src="http://i.postimg.cc/zvHfvSrv/recreation-2020-designer.png" width="80" title="Designer - Designed A Graphic"><img src="http://i.postimg.cc/Njc1hL6m/recreation-2020-fashionista.png" width="80" title="Fashionista - Curated An Aesthetic"><br><img src="http://i.postimg.cc/W3H3sYxx/recreation-2020-creator.png" width="80" title="Creator - Completed 10+ Challenges"><img src="http://i.postimg.cc/h4X8Tk4z/recreation-2020-enthusiastic.png" width="80" title="Enthusiastic - Interacted On Boards"><img src="http://i.postimg.cc/vmGDhVW2/recreation-2020-champion.png" width="80" title="Champion - Scored 200+ Points Total"><img src="http://i.postimg.cc/2SQVnwBB/recreation-2020-ace.png" width="80" title="Ace - Completed All 20 Challenges"><img src="http://i.postimg.cc/K4X8MkGN/recreation-2020-editor.png" width="80" title="Editor - Gave Reader Feedback"><img src="http://i.postimg.cc/66Fr0MTH/recreation-2020-fanatic.png" width="80" title="Fanatic - Made Fanart For Others"></a></center><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>The Inspiration</h1>
+<p>I can't quite remember or pinpoint when, but I found Roginol in the pound as a blue bruce and adopted her almost immediately. Her name sounds very similar to "rouxinol" (row-shi-nol; or a nightingale in english), and that inspired me to create a specific kind of character, one that had been imprisoned by their own ways of thinking and had to free themselves on their own. Hence her almost endless determination to achieve her goals, which only end up crushing her freedom and life as a whole and making her see herself roaming the world for the first time with no direction, completely free, just like a bird released from a cage. At first, I didn't quite know how to incorporate her into an actual story that would make real sense, but after a bit of brainstorming and looking at a bunch of different pet colors I could maybe paint her as, I landed on a Darigan bruce. The more exaggerated bird-like features made perfect sense for a character that was supposed to be bird-themed.</p>
+<p>After choosing her initial color scheme, I began to try a few different designs for her character. The warrior-like design was there from the beginning, but at first I didn't quite know how to incorporate the curse aspect of the darigan lore and hadn't even really started sketching  the first few drafts of her story either. Her first ever design was finished on May 19, 2018 on recolor.me, the second one was loosely based on the first design and was finished around a year after, somewhere around july or august of 2019, and a third and last rendition, which is the definitive one, was finished on August 15, 2020.</p>
+<center><img src="http://images.neopets.com/pets/bruce_darigan_baby.gif" style="width: 150px; height: 200px;"><img src="http://recolor.me/images/outfit/19/544713.png" style="width: 150px; height: 200px;"><img src="http://kenzato.uk/booru/images/2019/07/15/Koikatu_F_20190618160006583.png" style="width: 150px; height: 200px;"><img src="http://i.imgur.com/tPDhz6T.png" style="width: 150px; height: 200px;"></center><br><p>Just like with my other characters, I feel like there's at least a small piece of myself that ends up on them without me even realizing it at all and, with Roginol it wasn't any different. For many years during my childhood and teenage years I saw myself locked up in my own head because of mental and health related issues I didn't understand and didn't even know I had to begin with, and on top of that, after high school, being forced to take a big step on my own without any guidance was so incredibly hard. Going to college? I didn't know if I wanted to. Or what I wanted to study specifically. Getting a job? I still had no idea what I was good at. With those predicaments swirling inside my head. I ended up in many toxic environments, with even worse people, before finding the path I wanted to take. However, that took many years and a lot of energy out of me, so much so it was one of the many reasons I left the site for as long as I did,  since I had to go through a mental health and self discovery journey was incredibly exhausting and draining. Which ends up making her story have quite a bit of my own experiences and feelings slightly twisted into a more medieval and fantastical setting.</p>
+<p>But not everything is melancholy. I did have quite a bit of other sources of inspiration other than my own fluffed head. When it came to the more fantastical aspects of her story, the biggest one for sure stands to be the mangá <b>Claymore</b>, one of my favorites when it comes to medieval fantasy, that may have been a bit obvious to anyone who knows a bit of the story after I mentioned how her encounter with Wendy went. The "cursed" aspect of the Citadels lore really made me remember how the warriors in that story where put aside by society as a whole even if they were so important for their survival. Roginols determination's also does come a bit from the main character, which is shown to actually be a lot weaker than her peers.</p>
+<center><img src="http://i1.wp.com/www.berserkproject.com/wp-content/uploads/2018/12/Dragons.jpg" style="width: 150px; height: 200px;"><img src="http://www.oficialhostgeek.com.br/wp-content/uploads/2017/11/claymore-141.jpg" style="width: 150px; height: 200px;"><img src="http://i.pinimg.com/originals/e9/a9/81/e9a9811460fbda4c6cf9b08b07e087e8.jpg" style="width: 150px; height: 200px;"><img src="http://i.pinimg.com/originals/92/60/fb/9260fbdcf129be6e7758789b25698222.jpg" style="width: 150px; height: 200px;"></center>
+<p>On the other side of that spectrum, my honorable mentions for actual setting would be: <b>Berserk</b>, <b>The Elder Scrolls</b>, <b>Drakengard</b> and <b>Diablo</b> games, and <b>The Lord of the Rings</b> books and movies. Most of these (like Elder Scrolls and Lord of the Rings) may sound like very cliche inspirations for a medieval themed story, but with the Lord of the Rings books being one of my favorites, so much so that I own a copy of the compilation of all of the books, which I've read quite a few times over as well, it wouldn't make sense not to include it. While the other three (Berserk, Drakengard and Diablo) helped me quite a lot with the feeling of a fantastical and somber setting this story would take after the battles and the curse as a whole, since I doubt the world would stay the same happy little place it was after such devastation and war. Surely Roginol wouldn't have been the only one affected by their doings during the curse. I also can't imagine Meridell and Brightvale would be comfortable with the idea of having anyone from Darigan around their kingdoms either.</p>
+<p>Also, thanks to <a href="/~2020">RE:Creation 2020</a> I was able to flesh out an actual page for her! Putting all these ideas onto the world has been quite a ride, having to actually workout all of the lose ideas I had for so long motivated me to achieve a lot more with my own characters and pages as a whole. So as a closing note on my inspirations and story behind Roginols character I would like to thank everyone who participated on RE:C, that gave feedback on this page and motivated me to finish.</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>About Me</h1>
+<p>My name is <a href="/~abyss_citadel">Abyss</a>  and my pronouns are they/them, I'm a non-binary mortuary sciences student living in <i>Brazil</i>. I like writing, playing video games, cooking, collecting avatars, creating characters, photography and fashion. My favorite genre of media is horror, I love watching horror movies and playing horror themed games, and I would say my favorites in order are <i>Army of Darkness</i> and <i>Silent Hill 2</i>. In real life I have three cutesy little cats, Samara (10yo), Dothi (2yo) and Valeska (8mo) and a <a href="/userlookup.phtml?user=wglitch">significant other</a> that has been quite a light of hope in my life.</p>
+<center><img src="http://i.imgur.com/VtLdqou.jpg" style="width: 150px;" title="Samara"><img src="http://i.imgur.com/6lSyul5.jpg" style="width: 150px;" title="Dothi"><img src="http://i.imgur.com/5ommYcS.jpg" style="width: 150px;" title="Valeska"></center>
+<p>I've been on neopets since around 2009 and my journey with writing and creating characters began right here on this website! My first few characters were very inspired by (almost carbon copies of) <i>Twilight</i>, which, at the time, was very much my favorite book, but as I aged and was lead to explore other types of media I began to like other things, my writing style and my characters evolved alongside me and their stories were driven to be more dark and mature, which I began exploring off site and this prompted me to stay away from neopets for a few years (around 2012-2015), to not only explore my passion with more violent and real characters but also to hone my writing skils.</p>
+<p>During this period I stayed away from the site, many things changed in my life, not only mental health related topics but also other major life changes, I always had this inexplicable feeling of being an alien amidst my peers, and among the other kids in my school at the time I was seen as a weirdo and a creep. This feelings of isolation and anguish were one of the main reasons my characters turned from "weird little goofbals" to "traumatized children fighting against a society that doesn't accommodate for them", the later being a feeling I don't believe I've overcame just yet. With this swirling thoughts inside my head I began to write my most extensive piece during this hiatus, <i>Memories of Creation</i>, a dissertation that helped me deal with a lot of religious trauma, idealization and other horrible life experiences, and included not only a few of the characters I had began to create on neopets but completely new characters that I began to develop because of it.</p>
+<center><img src="http://s3.amazonaws.com/notebook-content-uploads/content/uploads/medium/fb68c249-1f9d-4c19-8708-3ea597af08d4.png" style="width: 150px; height: 150px;" title="Alyna, one of the main character in Memories of Creation"><img src="http://pets.neopets.com/cpn/Alyna_cullen/1/6.png" title="on neopets Alyna_cullen"><img src="http://s3.amazonaws.com/notebook-content-uploads/content/uploads/medium/a584841b-4717-4219-96de-cbc050c25df2.png" style="width: 150px; height: 150px;" title="Dankan, the second main character in Memories of Creation"><img src="http://pets.neopets.com/cpn/Dank_hand/1/6.png" title="on neopets Dank_hand"><img src="http://s3.amazonaws.com/notebook-content-uploads/content/uploads/medium/1343842c-86d8-4682-bf4a-4dde1c9bc175.png" style="width: 150px; height: 150px;" title="Edward, one of the supporting characters in Memories of Creation"><img src="http://pets.neopets.com/cpn/Edward_Mister_Cullen/1/6.png" title="on neopets Edward_Mister_Cullen"></center>
+<p>Alongside the complete change in tone that overcame my writing style I also began to see these characters more like realistic depictions of people instead of this invincible creatures that could only exist in pure fantasy, even if fantasy elements where embedded into the story itself. This change in tone can still be seen in newest characters like <a>Roginol</a> and <a href="/~CAPITALISATION">Tali</a>, for example, they are both obviously toned down to accommodate for the rules on the site, but pieces of it still stand.</p>
+<p>After this period away from the website I returned only to find my old account had been terminated, which did sting me a little bit at the time but also made me realize that those characters would live on in my work no matter what, so why not take this new found opportunity to start over and have a fresh beginning? With this mindset I created <a href="/userlookup.phtml?user=sterneflugel">sterneflugel</a>, the junction of two german words I always though had a nice sound to them, <i>sterne being star</i> and <i>flugel being wing</i>.</p>
+<p>Right now, my main goals are to develop my characters more and make dedicated petpages for most of them, collecting avatars and overall improve my account. You can find my portfolio <a href="/~abyss_citadel">here</a> and my character directory <a href="/~_suco_">here</a>, you can talk to me about anything you want to <a href="/neomessages.phtml?type=send&recipient=sterneflugel">here</a>.
+</p>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+</div>
+    <div class="section" id="prompts">
+
+
+<center><table width="600" border="1"><tr><td width="50%"><font size="2"><b>Prompts - Regret Prompt</b><br><a href="/neomessages.phtml?type=send&recipient=sterneflugel">Send a prompt</a> and my character will admit one thing they regret:
+
+<ul><li>something they did</li>
+<li>something they didn't do</li>
+<li>something they said</li>
+<li>something they didn't say</li>
+<li>a secret they kept</li>
+<li>something they learned</li>
+<li>a relationship they had</li>
+<li>a sin they committed</li></ul></font>
+<font color="#A9A9A9" size="2">or any other prompt you may want to hear about</font></td><td width="50%" valign="top"><font size="2"><i>Given Prompts</i>
+<ul><li><b>A memory that comes with a picture they have</b> to <a href="/userlookup.phtml?user=painted_dreams87">Heather</a> for <a href="/~sheevaline">Sheevaline</a></li>
+<li><b>Does your character collect / hoard anything? If so do the items have some kind of significance?</b> to <a href="/userlookup.phtml?user=eleanorronan">Ellie</a> for <a href="/~Junior_cool">Junior</a></li>
+<li><b>A memory about traveling</b> to <a href="/userlookup.phtml?user=lllustrator">Nobody</a> for <a href="/~Growler">Nymue</a></li></ul></font></td></tr></table></center>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h2>Received Prompts</h2>
+<img src="http://i.imgur.com/IAGQqFx.png"><div style="width: 808; height: 200; overflow: auto; border: 1px black solid; background-color: #f6f6f6;">
+<center><font color="#A9A9A9">thank you so much for the prompt and good wishes! hope you like the answer! ~ Abyss</font></center>
+<p>As Roginol walked inside the small town a woman that seemed not much younger than herself came rushing to seek help, "please, please, help me and my brother, they've stolen all our food, please, warrior!", sobbing and tugging at Roginols cape the woman pointed at an alleyway, "we can't just ignore this!", the little girls voiced was high pitched and worried, but Wendy was quite right, she couldn't just ignore such a desperate request, even if she didn't quite know if they were welcome in this town or not. Gently nudging the younger woman aside, she took out her sword from it's sheath while taking silent steps towards the dimly lit alleyway, a thief, or a band of them, was something she didn't take lightly, seeing it as nothing more than a lack of honor and respect.</p>
+<p>As the shadows got closer and she could peak inside to understand the situation, Roginol saw a scene out of a medieval novel, the boy, who seemed to be slightly older then the sister from before, was drenched in red, his face bruised and a swollen eye while the other three or four man only laughed and kept on going with their one way fight. With red boiling inside her veins, she sprinted directly into combat waiving her sword close enough to their faces to scare them but slightly far and dismissively enough to not hurt them, "how dare you pick on the weak you bunch of cmberworlds!", her almost thunderous voice echoed throughout the small and dark space like the growl of an resentful beast. The group of thieves took a step back getting cornered into the mossy wall, "how dare a woman interrupt us?", a scraggly man shouted while pointing at Roginol and ordering his companions to attack.</p>
+<p>The group of men jumped at her with knives and daggers in hand, she moved her feet and played her sword with grace, knocking them down one by one while trying to hold herself back, from the outside it almost seemed like the woman was floating in mid air while cutting down her enemies and dodging their mildly coordinated attacks. Landing on her feet after such acrobatics, she felt the warm red liquid adorn her left cheek while the scraggly man laughed and looked down on her, "did you really think I cared about honor? or these fopdoodles? life isn't that kind of faerie tale, girl!", cleaning the liquid off her face and noticing the horrified face of the beat up kid, Roginol sneered at the man, letting out an erratic laughter, "I don't know what real life is? I don't think you know what you are talking about, you chewed dog!", throwing the heavy steel sword with one of her hands and engraving it in between the stone bricks, the woman kept on laughing while the red liquid dripped down the mans face, panicked with her maniacal state the man ran off into the darkness cursing her for everything.</p>
+<p>Dusting herself off and setting the sword free from the bricks, Roginol turned around to check up on the man who had apparently been beat into almost a pulp of flesh and red liquid, extending a gentle hand and an expresionless face she began to question, "what happened here?", her gentle voice was quite startling to young man, who accepted the helping hand to get up while brushing the liquid off his face with the back of his hand, "just what always happens...", the mans gaze danced around the alley before finally locking on the brown-ish bag on the ground, "at least this time they didn't take the food", with a chuckle he scourged around the contents and threw an apple the Roginol, who cached it in her hands with delicate fingers, "it's not much, but it's the least I can do to pay for your help", with a crooked smile because of the pain, he walked out of the alleyway to meet his jumping sister, who tightly hugged him, "dear lord, you are ok, please don't do that again!", she urged the young man.</p>
+<p>With an apathetic sigh, she walked out of the shadows to find Wendy pacing around in a single line, worried about the well-being of the older one, "please don't cause damage to the town, we don't have money for that", Roginol said jokingly while the girl opened a bright smile and hugged the others waist, "I'm glad you are back".</p>
+</div>
+<img src="http://i.imgur.com/yY5Olbh.png"><div style="width: 808; height: 200; overflow: auto; border: 1px black solid; background-color: #f6f6f6;">
+<center><font color="#A9A9A9">Thank you so much for the compliments! Hope you like the answer! ~ Abyss</font></center>
+<p>Wendy sat down at the edge of the river, submerging her feet on the running water while Roginol took off the scattered plates of armor from her body, "don't you regret going trough so much to achieve your dreams only to end up like this?", the young girl asked, turning her head slightly to see the other, she thought about her years training in the farm, the trials, Lord Darigan, the war, she didn't regret any of it, the misery of it weighed heavy on her heart, but she wouldn't have changed her decision, "no, not at all", the woman answered while sitting on the ground, her back propped against a big and old tree.</p>
+<p>Confused the young girl scrunched her face in disapproval, "is there nothing about all of this that you regret? at all?", the denial was quite evident on her voice, which took the woman by surprise, "if I always stopped to anlyse and regret the past I would never walk forward at all", but the succinct answer only confused Wendy even more, "is there nothing you actually regret?", her tone had shifted from absolute denial to complete curiosity, the older one could never understand how that child was so expressive after witnessing such tragedy, but thinking back to her younger days she was also quite expressive, wasn't she?</p>
+<p>Maybe there are one or two things I regret not saying", Roginol answered honestly, the two people that came to her head when thinking about regret had always been the only two men in her life who mattered more than the fighting or the work - her father and Lesser. Looking up at the scattered sunshine raining down on her through the leaves she left out a chuckle, "I imagine you are waiting to hear what those were, right?", nodding attentively, Wendy scooted herself over and heard attentively to the tale.</p>
+<p>."While I still lived in the farm with my father we had only a single fight, I was about 19 years old at the time, the post boy had just delivered my black letter, the coat of arms that adorned wax seal on the envelope made it clear that I had been accepted for the trials, he had always disprove of my ways, but he now had reason to act on them and convince me not to go. During that day I hid the letter under my pillow, scared of his reaction, but it didn't take long before he found it and came my way to question it. For the first time in my whole life I heard fathers stern voice shout in my direction, 'you know how dangerous this is, how dare you hide it from me', he shouted while pointing to the letter, I screamed back, cursing him for wanting to stop me, no matter what he or any other said to me, I had decided to take that burden upon myself. That night I slept with a heavy heart, and the next day I parted to the Citadel... at the time I was so angry I didn't say a word to him, the only times we talked were thought letters, horrible letters were I could not convey how sorry I was for not telling him how much I loved him for everything he had done.</p>
+<p>With her jaw slightly dropped and the depth of regret on her Roginols voice, Wendy nudged herself closer to the older woman and laid her fluffy hair on her shoulder, "I'm sure he knew how much you loved him", the young girl said with a reassuring smile on her face, "I sure hope so... because I never had the courage to say it to his face, and in the end... by my hands... he would never be able to hear it", almost as if a flash of memory overcame her sight, Roginol looked at her hands that seemed to flash back to the old Gardiner state, covered in red liquid and back again to reality in the forest.</p>
+</div>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+</div>
+    <div class="section" id="credits">
+      <h1>Sitely</h1>
+      <div class="center">
+        <b>Link back?</b><br><br><div class="button">
+          <img src="http://i.imgur.com/WqGZPV9.gif"><br><b>by me</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/WqGZPV9.gif"></a></textarea></div>
+        <div class="button">
+          <img src="http://i.imgur.com/unFL4FK.gif"><br><b>by me</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/unFL4FK.gif"></a></textarea></div>
+        <div class="button">
+          <img src="http://i.imgur.com/fnvlaKL.gif"><br><b>by me</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/fnvlaKL.gif"></a></textarea></div>
+        <div class="button">
+          <img src="http://i.imgur.com/GaJfpXq.gif"><br><b>by me</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/GaJfpXq.gif"></a></textarea></div><br><div class="button">
+          <img src="http://i.imgur.com/KDrbaNS.gif"><br><b>by me</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/KDrbaNS.gif"></a></textarea></div>
+
+<div class="button">
+          <img src="http://i.imgur.com/JzwMZaR.gif" title="made by painted_dreams87, thank you so much!"><br><b>by painted_dreams87</b><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/JzwMZaR.gif"></a></textarea></div></div><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+
+<h1>My Other Pets</h1>
+<div class="center">
+<a href="/~bjarka_"><img src="http://i.imgur.com/GOpNi8M.png"></a><a href="/~laepine"><img src="http://i.imgur.com/GSup1gs.gif"></a><a href="/~starphal"><img src="http://i.imgur.com/t1CXuYR.gif"></a><a href="/~hexperimentho"><img src="http://i.imgur.com/2RtmhQi.png"></a><br><br><center><img src="http://imgur.com/UvTgbnM.png"></center>
+</div>
+
+<div class="col">
+        <b>How to be an Affiliate</b><br><br><center><a href="/neomessages.phtml?type=send&recipient=sterneflugel"><img src="http://imgur.com/9FoVCjf.png"></a><br><div class="button"><textarea>
+(Please title the NM "AFFILIATE REQUEST - ROGINOL")
+Petpage link: /~
+Type of page:
+</textarea></div><br><a href="/neomessages.phtml?type=send&recipient=sterneflugel">to be an affiliate nm me</a></center><br><b>Listed At</b><br><br><a href="/~Crowvolt"><img src="http://i.imgur.com/ohddZKt.png"></a><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"></div>
+      <div class="col">
+        <b>Affiliates</b><br><br><a href="/~aelia"><img src="http://i.imgur.com/n7Nd4l0.png"></a><a href="/~Agate"><img src="http://i.imgur.com/puZw2zH.gif"></a><a href="/~Amhran_Feileacan"><img src="http://i.ibb.co/7yH5hPD/Am-Button-01.gif"></a><a href="/~viragex28"><img src="http://i.imgur.com/n0KtLln.gif"></a><a href="/~cowzer60"><img src="http://i.imgur.com/lDp7V5Y.gif"></a><a href="/~Faker"><img src="http://i.postimg.cc/y6ywbkhT/fakerbutton.gif"></a><a href="/~Zippidy21"><img src="http://i.imgur.com/u8JtlmI.png"></a><a href="/~Growler"><img src="http://i.postimg.cc/90fPF8D1/Growlerbutton.gif"></a><a href="/~Junior_cool"><img src="http://i.imgur.com/DEX7PJ3.png"></a><a href="http://www.neopets.com/~Morthic"><img src="http://64.media.tumblr.com/150a3985f328ce4daf72605366b9b72a/df79c065014a3fa5-8e/s100x200/d7c9eb72d5b2650ac3a4dd5443a697e48c448088.png"></a><a href="/~nona_san"><img src="http://i.imgur.com/Z2Ju4Qa.png"></a><a href="/~purled"><img src="http://i.imgur.com/HpqjtRH.gif"></a><a href="/~Preache"><img src="http://i.ibb.co/XtgK6TV/preache-button2.png"></a><a href="/~Senaye"><img src="http://i.imgur.com/GsvV3qs.gif"></a><a href="/~sheevaline"><img src="http://i.imgur.com/5jHI6Ew.gif"></a><a href="/~Unbrea"><img src="http://i.imgur.com/JOsWwKz.gif"></a><a href="/~Varihen"><img src="http://i.imgur.com/ZWJilct.gif"></a><img src="http://imgur.com/bhVxYY8.png"><br><a href="/~Dark_Death_the_uni">
+<img src="http://i.imgur.com/Dyc8DS9.png"></a></div>
+      <div class="col">
+      <b>Credits</b><br><br><a href="/~accury"><img src="http://imgur.com/zrnGZC5.gif"></a><a href="/~drelda"><img src="http://i.imgur.com/aSF0xxC.gif"></a><a href="/~Libermango"><img src="http://imgur.com/84ueuwg.gif"></a><a href="/~icnamotserhc"><img src="http://i.imgur.com/dlUu9H1.gif"></a><a href="/~Dumblydohr"><img src="http://i352.photobucket.com/albums/r339/Emma1230_photos/L27.gif"></a><a href="/~crosslands"><img src="http://imgur.com/ew0RdAX.gif"></a><a href="/~fogg"><img src="http://i.imgur.com/hkgcq4B.png"></a><a href="http://www.neopets.com/~brocc"><img src="http://i.imgur.com/YhaEpoi.png"></a><a href="/~2020"><img src="http://i.imgur.com/gL7Kn1r.png"></a><a href="/~Xaia"><img src="http://i.imgur.com/nN0GHve.gif"></a><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><img src="http://imgur.com/bhVxYY8.png"><ul><li>Button Placeholders by <a href="/~crosslands">Landscape</a></li>
+<li>Dividers, Open / Closed Signs, and NM sings by <a href="/~icnamotserhc">Esquire</a>
+</li><li>Low opacity fills and Art Gallery Code by <a href="/~cecira">lolwat.</a></li><li>Personality and Likes & Dislikes charts by <a href="/userlookup.phtml?user=reviro">Moon</a></li><li>Challenge Tracking and Score Charts by <a href="/userlookup.phtml?user=lllustrator">Nobody</a></li><li>Arrows by <a>PublicDomainVectors</a></li><li>Art on Moodboard by <a>Eve Venture</a></li><li>Other images on Moodboard credited to their respective creators</li></ul></div>
+    </div>
+    <div class="section" id="art">
+<h1>Adoptables</h1>
+<h2>Bases</h2>
+<center><font color="#A9A9A9">Drag and drop the images on your address bar to see them</font><br><img src="http://i.imgur.com/pe9nbWD.png" style="width: 150px;"><img src="http://i.imgur.com/iZ8dHRN.png" style="width: 150px;"></center>
+<h2>Colored</h2>
+<center><font color="#A9A9A9">Copy and paste the code on your petpage to use them</font><table><tr><td><div class="button"><i>baby</i><br><img src="http://i.imgur.com/vNdzIOS.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/vNdzIOS.png"></a></textarea></div></td>
+<td><div class="button"><i>blue</i><br><img src="http://i.imgur.com/pQMbdKh.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/pQMbdKh.png"></a></textarea></div></td>
+<td><div class="button"><i>brown</i><br><img src="http://i.imgur.com/Ybi7wys.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/Ybi7wys.png"></a></textarea></div></td>
+<td><div class="button"><i>ghost</i><br><img src="http://i.imgur.com/ZqzzbFL.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/ZqzzbFL.png"></a></textarea></div></td>
+<td><div class="button"><i>gold</i><br><img src="http://i.imgur.com/mOa5PIE.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/mOa5PIE.png"></a></textarea></div></td>
+<td><div class="button"><i>green</i><br><img src="http://i.imgur.com/6uEBtc7.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/6uEBtc7.png"></a></textarea></div></td>
+<td><div class="button"><i>orange</i><br><img src="http://i.imgur.com/YpLOept.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/YpLOept.png"></a></textarea></div></td></tr><tr><td><div class="button"><i>pastel</i><br><img src="http://i.imgur.com/GusuEPw.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/GusuEPw.png"></a></textarea></div></td><td><div class="button"><i>pink</i><br><img src="http://i.imgur.com/psF7qo4.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/psF7qo4.png"></a></textarea></div></td><td><div class="button"><i>purple</i><br><img src="http://i.imgur.com/L7SDktz.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/L7SDktz.png"></a></textarea></div></td><td><div class="button"><i>red</i><br><img src="http://i.imgur.com/oh0WCRK.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/oh0WCRK.png"></a></textarea></div></td><td><div class="button"><i>shadow</i><br><img src="http://i.imgur.com/4lQynev.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/4lQynev.png"></a></textarea></div></td><td><div class="button"><i>silver</i><br><img src="http://i.imgur.com/U7SdSnU.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/U7SdSnU.png"></a></textarea></div></td><td><div class="button"><i>white</i><br><img src="http://i.imgur.com/wLwa0fh.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/wLwa0fh.png"></a></textarea></div></td></tr><tr><td><div class="button"><i>yellow</i><br><img src="http://i.imgur.com/pScw3kW.png" style="width: 100px;"><br><textarea><a href="/~roginol"><img src="http://i.imgur.com/pScw3kW.png"></a></textarea></div></td></tr></table></center>
+<h2>Customs</h2>
+<center><img src="http://imgur.com/07H9a1R.png"><br><div class="button"><i>Request form:</i><br><a href="/neomessages.phtml?type=send&recipient=sterneflugel"><img src="http://imgur.com/lMHoQEj.png"></a><br>
+Please NM this<br>request form <a href="/neomessages.phtml?type=send&recipient=sterneflugel">here</a><br><textarea>
+(Please title the NM "CUSTOM ADOPTABLE REQUEST - ROGINOL")
+Pet name and color:
+Custom details:
+Link to reference:
+</textarea></div>
+<div class="button"><i>Pickup:</i><br><img src="http://i.imgur.com/iVa7Q8u.png" style="width: 100px;"><br><textarea>pickups will go here</textarea></div></center>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Adopted</h1>
+<center><a href="/~ParasiticPlague"><img src="http://i.imgur.com/2mWfGwS.png" style="height: 100px;"></a></center><br><center><a href="/~xox"><img src="http://i.imgur.com/12HnWFy.gif" width="57" height="100"></a><a href="http://www.neopets.com/~Supiritto"><img src="http://i.imgur.com/g3kiHpQ.png" width="57" height="100" border="0"></a><a href="http://www.neopets.com/~sunit"><img src="http://i.imgur.com/YfqO0Ds.png" width="57" height="100" border="0"></a><a href="/~Torteaux"><img src="http://i.imgur.com/3FWmFxh.png" width="57" height="100"></a><a href="/~Crayolaz"><img src="http://i.imgur.com/rgcd1Dl.png" width="57" height="100"></a><a href="http://www.neopets.com/~phantashie"><img src="http://i.imgur.com/JrwphOZ.png" width="57" height="100"></a><a href="http://www.neopets.com/~Snipclaw"><img src="http://imgur.com/PNAEJi8.gif" width="57" height="100" border="0" title="Want a Tama of your own? Click me!"></a><a href="/~Winiet"><img src="http://i.imgur.com/BSQEHzw.png" width="57" height="100" border="0"></a>
+</center>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Art Gallery</h1>
+<h2>By me</h2>
+<div class="petbox" style="position: relative;">
+
+<span class="noe" style="position: absolute;">Hover to the images<br> on your left for a larger preview</span>
+<ul><li><img src="http://i.imgur.com/3MAzZZL.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/3MAzZZL.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/GD3vFMd.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/GD3vFMd.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/IdA0OgB.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/IdA0OgB.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/xTkAggd.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/xTkAggd.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/Mg91gZN.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/Mg91gZN.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/i0EST7x.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/i0EST7x.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/9mg0Zvh.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/9mg0Zvh.png" style="width: 707px; height: 392px;"></span>
+</li>
+<li><img src="http://i.imgur.com/dbvjRkJ.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/dbvjRkJ.png" style="width: 707px; height: 392px;"></span>
+</li>
+</ul></div>
+
+<h2>By others</h2>
+<div class="petbox" style="position: relative;">
+
+<span class="noe" style="position: absolute;">Hover to the images<br> on your left for a larger preview</span>
+<ul><li><img src="http://i.imgur.com/qQ2WZAYm.jpg" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.imgur.com/qQ2WZAYm.jpg" style="width: 279px; height: 320px;">By ade1, thank you very much!</span>
+</li>
+<li><img src="http://i.postimg.cc/FKKmQW9V/roginalbylllustrator.png" style="width: 50px; height: 50px;"><span style="position: absolute;"><img src="http://i.postimg.cc/FKKmQW9V/roginalbylllustrator.png" style="width: 422px; height: 372px;"> By lllustrator, thank you very much!</span>
+</li>
+</ul></div>
+
+
+
+<b>fanart for others on RE:Creation</b><br><center><font color="#A9A9A9">Drag and drop the images on your address bar to see them</font></center><br><img src="http://i.imgur.com/bUDr1Fs.png" style="width: 50px; height: 50px;" title="7u7 for liuvro"><img src="http://i.imgur.com/raf7E9U.png" style="width: 50px; height: 50px;" title="Sheevaline for painted_dreams87"><img src="http://i.imgur.com/C4NbyTd.png" style="width: 50px; height: 50px;" title="Agate for elegysanft"><br><center><img src="http://imgur.com/UvTgbnM.png"></center></div>
+
+    <div class="section" id="recreation">
+<h1>RE:Creation Challenge</h1>
+<h2>Challenge Tracking</h2>
+<table><tr><td style="width: 33%;"><font size="2"><ul><li><strike>Customize premade layout</strike></li>
+<li><strike>Create basic stats chart</strike></li>
+<li><strike>Describe environment</strike></li>
+<li><strike>Write first memories</strike></li>
+<li><strike>Write about relatives</strike></li>
+<li><strike>Outline prologue</strike></li>
+<li><strike>Draw character ref</strike></li>
+<li><strike>Collage a mood board</strike></li>
+<li><strike>Why I wanted this name</strike></li>
+<li><strike>Get a linkback button</strike></li>
+<li><strike>Letter, monologue, or poetry</strike></li>
+<li><strike>Create neopet description</strike></li>
+<li><strike>List items story related</strike></li>
+<li><strike>Set up a snazzy pet lookup</strike></li>
+<li><strike>Get a really cool banner</strike></li>
+<li><strike>Adopt some adoptables</strike></li>
+<li><strike>Read through prompt page</strike></li>
+<li><strike>Make an about me section</strike></li>
+<li><strike>Review user above and below</strike></li>
+<li><strike>Make fanart for user above</strike></li>
+</ul></font>
+</td>
+<td style="width: 34%;"><font size="2"><ul><li><strike>Create a page planning map</strike></li>
+<li><strike>Describe personality</strike></li>
+<li><strike>Describe ruling powers</strike></li>
+<li><strike>Write catalyst event</strike></li>
+<li><strike>Write about connections</strike></li>
+<li><strike>Write prologue</strike></li>
+<li><strike>Show sad, mad, glad, fear</strike></li>
+<li><strike>Write list of theme words</strike></li>
+<li><strike>Why I am attached to pet</strike></li>
+<li><strike>Affiliate with other pages</strike></li>
+<li><strike>Oneliners character says</strike></li>
+<li><strike>List of goals for neopet</strike></li>
+<li><strike>List np items for neopet</strike></li>
+<li><strike>Make a customized sig style</strike></li>
+<li><strike>Decide on a divider style</strike></li>
+<li><strike>Make my own adoptable base</strike></li>
+<li><strike>Send prompt to user above me</strike></li>
+<li><strike>Check credits and disclaimer</strike></li>
+<li><strike>Read the reviews I was given</strike></li>
+<li><strike>Make fanart for a second user</strike></li>
+</ul></font>
+</td>
+<td style="width: 33%;"><font size="2"><ul><li><strike>Write character synopsis</strike></li>
+<li><strike>Make chart of interests</strike></li>
+<li><strike>Describe cultural norms</strike></li>
+<li><strike>Write belief system</strike></li>
+<li><strike>Write about rivalries</strike></li>
+<li><strike>Write cliffhanger</strike></li>
+<li><strike>Describe wardrobe style</strike></li>
+<li><strike>Put together playlist</strike></li>
+<li><strike>What influenced my story</strike></li>
+<li><strike>Attribute credits correctly</strike></li>
+<li><strike>Resume, school, or training</strike></li>
+<li><strike>Show off pet customization</strike></li>
+<li><strike>List nc items for neopet</strike></li>
+<li><strike>Code a gallery section</strike></li>
+<li><strike>Add some cosmetics to page</strike></li>
+<li><strike>Color my adoptable base x4</strike></li>
+<li><strike>Write prompt I was given</strike></li>
+<li><strike>Go through and edit page</strike></li>
+<li><strike>Choose what edits to make</strike></li>
+<li><strike>Make fanart for a third user</strike></li>
+</ul></font>
+</td>
+</tr></table><center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h2>Challenge Score Chart</h2>
+<center>
+<table class="score"><tr><td class="score"><i>Roginol by Abyss</i>
+</td>
+</tr></table><table class="score"><tr><th>NOTES FROM HOST:</th>
+<th class="score"></th>
+<th class="score">C01</th>
+<th class="score">C02</th>
+<th class="score">C03</th>
+<th class="score">C04</th>
+<th class="score">C05</th>
+<th class="score">C06</th>
+<th class="score">C07</th>
+<th class="score">C08</th>
+<th class="score">C09</th>
+<th class="score">C10</th>
+<th class="score"></th>
+<th class="score">TOTAL</th>
+</tr><tr><td class="score">none</td>
+<th class="score"></th>
+<td class="score">10</td>
+<td class="score">10</td>
+<td class="score">25</td>
+<td class="score">25</td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>30</i></td>
+<td class="score"><i>20</i></td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>15</i></td>
+<th class="score"></th>
+<td class="score">180</td>
+</tr><tr><td class="score"></td>
+<th></th>
+<th>C11</th>
+<th>C12</th>
+<th>C13</th>
+<th>C14</th>
+<th>C15</th>
+<th>C16</th>
+<th>C17</th>
+<th>C18</th>
+<th>C19</th>
+<th>C20</th>
+<th class="score"></th>
+<th class="score">TOTAL</th>
+</tr><tr><td class="score"></td>
+<th class="score"></th>
+<td class="score"><i>20</i></td>
+<td class="score"><i>20</i></td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>25</i></td>
+<td class="score"><i>15</i></td>
+<td class="score">20</td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>15</i></td>
+<td class="score"><i>20</i></td>
+<td class="score"><i>30</i></td>
+<th class="score"></th>
+<td class="score">195</td>
+</tr></table><table class="score"><tr><td>TROPHIES: planner, writer, worldbuilder, participant, designer, fashionista, creator, enthusiastic, champion, ace, editor, fanatic
+<br><br></td>
+</tr></table></center>
+<center><img src="http://imgur.com/UvTgbnM.png"></center>
+<h1>Commentary</h1>
+<i>I'm only posting the more specif points and not the whole NM I sent</i>
+<div style="width: 808; height: 200; overflow: auto; border: 1px black solid; background-color: #f6f6f6;">
+For <a href="/userlookup.phtml?user=painted_dreams87">Heather</a> on <a href="/~sheevaline">Sheevaline</a><br>
+maybe some art at the bottom of the home page to fill it out a bit?<br>
+on the description maybe you can change it to "...burgundy hair with hints of grey. Her skin is a light-mid grey, and her eyebrows are a darker shade of the same color.", to avoid the repetition of "grey<br>She has a gentle and inquisitive appearance." sounds a bit better x3<br>When she is frustrated, her nose wrinkles, and her face loses its softness. When angry, her eyes become narrower and piercing. When joyful, her mouth opens to display a smile and her eyes widen." same as the gray, to avoid repeating "she is" too many times on a shorter string of words<br>he wiped out any of the population that wouldn't agree to follow him and Sheevaline's parents were among those lost during that time, but she was able to escape into the ocean." you can make this one full sentence, it reads better without the pause<br>...teenager and lost her parents, she had to flee for her life..." same here<br>She didn't trust anyone easily from..." just for a bit more clarification on this statement<br>best friend, Saraline, accepting her made Sheevaline warm up to some and opened a door to new opportunities.<br>They met in Elsva, Ashirea. After realizing they were all alone and fled to this new place." sounded a bit off before<br>...Elsva, and it's covered in a..." was misspelled<br>Sheevaline sat up, groaning with as much exaggeration as she could muster." no need to use the second as she did
+</div>
+<div style="width: 808; height: 200; overflow: auto; border: 1px black solid; background-color: #f6f6f6;">
+For <a href="/userlookup.phtml?user=lllustrator">Nobody</a> on <a href="/~Faker">Raiden</a><br>Then he took a rigid, upright stance several paces inside as the door swung shut behind him, the very picture of a prim gentleman." might be me, but this sounded a bit confusing<br>I didn't want to Jinx myself" I'm going to act like I didn't see what you did there *lol*
+</div>
+</div>
+</div>
+  </div>
+
+<div class="bottom" id="s1">
+  <div class="bg"></div>
+</div>
+<div class="bottom" id="s2">
+  <div class="bg"></div>
+</div>
+<div class="bottom">
+  <div class="bg">
+    <div class="nav">
+      <a href="#beginning">beginning</a>
+      <a href="#aesthetics">aesthetics</a>
+      <a href="#about">about</a>
+      <a href="#introduction">introduction</a>
+      <a href="#world">world</a>
+      <a href="#story">story</a>
+      <a href="#art">art</a>
+      <a href="#prompts">prompts</a>
+      <a href="#recreation">re:creation</a>
+      <a href="#credits" style="margin: 0;">credits</a>
+    </div>
+  </div>
+  
+</div>
